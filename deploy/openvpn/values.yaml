@@ -10,7 +10,7 @@ updateStrategy:
 # imagePullSecretName:
 
 image:
-  repository: k4kratik/openvpn
+  repository: nubacuk/docker-openvpn:aarch64
   tag: v1
   pullPolicy: IfNotPresent
 service:
